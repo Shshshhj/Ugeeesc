@@ -1,7 +1,7 @@
 {
-    "name": "Mega-Deployer",
-    "description": "Deploy the original Mega.nz-Bot",
-    "logo": "https://github.com/Itz-fork/Mega.nz-Bot/blob/nightly/assests/logo.png?raw=true",
+    "name": "Mployer",
+    "description": "Deploy the original Mz-Bot",
+    "logo": "https://github.comBot/blob/nightly/assests/logo.png?raw=true",
     "keywords": [
       "Telegram Bot",
       "Mega.nz",
@@ -9,9 +9,9 @@
       "File Transfer",
       "Deployment"
     ],
-    "website": "https://t.me/NexaBotsUpdates",
-    "repository": "https://github.com/Itz-fork/X-Bin-Patch",
-    "success_url": "https://t.me/NexaBotsUpdates",
+    "website": "https://t.me/NexaBotsUtes",
+    "repository": "https://github.com/UsergeTeam/Userge",
+    "success_url": "https://t.me/NexaBdates",
     "env": {
       "APP_ID": {
         "description": "Your unique Telegram APP ID, obtained from my.telegram.org",
@@ -46,26 +46,6 @@
         "description": "Optional: The password for your Mega account specified in MEGA_EMAIL.",
         "required": false
       },
-      "USE_ENV": {
-        "description": "Set this to 'true' if you're running a private bot with a single Mega account using MEGA_EMAIL and MEGA_PASSWORD.",
-        "required": false,
-        "value": "false"
-      },
-      "TG_MAX_SIZE": {
-        "description": "Optional: Customize the maximum file size (in bytes) that users can upload to Telegram through your bot. Defaults to Telegram's limit of 2GB.",
-        "required": false,
-        "value": "2040108421"
-      },
-      "CYPHER_KEY": {
-        "description": "A unique key for encrypting user email and password data in the database. It's highly recommended to generate a new key for security. For guidance, see https://megabot.hirusha.codes/config-vars",
-        "required": true,
-        "value": "rjthz12go4udR8CkoTLI0L8pk418PCBFT7KP8EuDIKM="
-      },
-      "CHUNK_SIZE": {
-        "description": "Optional: Adjust the amount of data (in bytes) that the bot reads into memory when downloading files from direct download links. This can impact performance and memory usage.",
-        "required": false,
-        "value": "524288"
-      }
     },
     "addons": [],
     "buildpacks": [],
